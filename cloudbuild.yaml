@@ -1,0 +1,15 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  entrypoint: 'bash'
+  args:
+  - '-c'
+  - |
+    docker pull asia.gcr.io/project_name/prerequire || exit 0
+- name: 'gcr.io/cloud-builders/docker'
+  args: [
+           'build',
+           '-t', 'asia.gcr.io/project_name/data_system',
+           '--cache-from', 'asia.gcr.io/project-steven-271510/prerequire',
+           '.'
+        ]
+images: ['asia.gcr.io/project_name/data_system']

@@ -1,0 +1,12 @@
+data-dev.db
+prac.py
+consume.py
+csvs/
+output/
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+config_files
+file.csv
+user_info.json

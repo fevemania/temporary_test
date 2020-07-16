@@ -1,0 +1,13 @@
+README.md
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+Pipfile
+Pipfile.lock
+tests
+scripts_for_vendors
+scripts_for_customer
+csv_upload
+.git
+.pytest_cache

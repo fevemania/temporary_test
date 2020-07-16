@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flask-restful = "*"
+flask-sqlalchemy = "*"
+python-dotenv = "*"
+httpie = "*"
+marshmallow = "*"
+pytest = "*"
+pyotp = "*"
+google-cloud-pubsub = "*"
+google-cloud-storage = "*"
+gunicorn = "*"
+cryptography = "*"
+flask-jwt-extended = "*"
+google-cloud-bigquery = "*"
+pybigquery = "*"
+faker = "*"
+
+[packages]
+
+[requires]
+python_version = "3.6"
